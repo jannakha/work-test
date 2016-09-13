@@ -25,10 +25,10 @@ Construct a PHP Web Service which provides the following endpoints:
 ```
 {
   id: 1,
-  name: 'Social Sciences Library',
-  code: 'SSL',
-  campus: 'St Lucia',
-  phone: '07 3000 0000'
+  "code": "arm",
+  "name": "Architecture / Music Library",
+  "abbr": "Arch Music",
+  "url": "http://www.library.uq.edu.au/locations/architecture-music-library"
 }
 ```
 
