@@ -1,9 +1,9 @@
-# UQLibrary Work Test
+# Welcome to UQLibrary Work Test!
 
 These simple tasks should demonstrate your basic understanding and skills in PHP and javascript.
 
 - read all instructions first
-- implement each test in its own repo on github
+- implement each test (fontend and backend) in its own repo on github
 - send us links to your repo when you're done
 
 ## Backend test: PHP Web Service
@@ -24,7 +24,7 @@ Construct a PHP Web Service which provides the following endpoints:
 ### Sample JSON structure:
 ```
 {
-  id: 1,
+  "id": 1,
   "code": "arm",
   "name": "Architecture / Music Library",
   "abbr": "Arch Music",
@@ -38,20 +38,20 @@ Construct a PHP Web Service which provides the following endpoints:
 ### Sample input:
 ```
 {
-  root: 2,
-  left: {
-    root: 7,
-    left: {
-      root: 2
+  "root": 2,
+  "left": {
+    "root": 7,
+    "left": {
+      "root": 2
     },
-    right: {
-      root: 6
+    "right": {
+      "root": 6
     },
   },
-  right: {
-    root: 5,
-    left: {
-      root: 9
+  "right": {
+    "root": 5,
+    "left": {
+      "root": 9
     }
   }
   }
