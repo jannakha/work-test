@@ -10,25 +10,27 @@ These simple tasks should demonstrate your basic understanding and skills in PHP
 
 Construct a PHP Web Service which provides the following endpoints:
 
-- /api/library/{library_id} GET 
-  - takes 'libraryId'
-  - returns a JSON with library details (returned data can be hardcoded)
+- /api/library/{id} GET 
+  - takes 'id'
+  - 'id' is a number
+  - invalid id should return not found response
+  - returns a JSON with library details (returned data can be hardcoded, loaded from local file, DB, cache, cloud service, etc)
   
 - /api/library POST 
   - takes a parameter 'library' JSON representation of a library object 
   - requires an authentication token X-VALID-USER: ${token} 
   - without auth token request should return unauthorised response
   - token value can be any value for a successful response  
-  - "saves" it locally (TODO: where to save?)
+  - saves library data (data can be saved into a file, DB, cache, cloud service etc, etc)
      
 ### Sample JSON structure:
 ```
 {
-  "id": 1,
-  "code": "arm",
-  "name": "Architecture / Music Library",
-  "abbr": "Arch Music",
-  "url": "http://www.library.uq.edu.au/locations/architecture-music-library"
+  "id":   10123, //number
+  "code": "ARC100", //[3 characters 3 numbers]
+  "name": "Architecture / Music Library", //string
+  "abbr": "Arch Music", //string
+  "url": "http://www.library.uq.edu.au/locations/architecture-music-library" //URL string
 }
 ```
 
@@ -91,14 +93,27 @@ Construct a javascript application (using AngularJS/PolymerJS/etc) allowing user
 
 ## Criteria
 
-- code quality
-- documentation
-- testing
+Your submission will be reviewed according to the following criteria:
 
+- code quality: 
+  - readablity
+  - coding standards
+  - comments
+  - following best practices/patterns
+- documentation:
+  - inline comments
+  - github readme
+  - api documentation
+- testing: provide a set of working tests (or comment how would you implement the following tests):
+  - unit testing
+  - 2e2 testing
+  - api testing
+  
 ## Extra credit
 
 - provide estimation of how long would it take you to implement each mini-app, comment on how long it took you to implement it
-- application deployment (provide URL to your deployed application, eg heroku, github io, or provide steps how to run it locally)
+- application deployment (provide URL to your deployed application, eg heroku, github io etc, or provide steps how to run it locally)
+- comment on which tools you'd use to ensure optimised development environment
 - comment on how you'd optimise your applications on server
 - comment how you'd scale your applications
 - comment on any issues you have come across
