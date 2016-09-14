@@ -85,7 +85,7 @@ Construct a javascript application (using AngularJS/PolymerJS/etc) allowing user
 
 ### Technical requirements
 
-- application must respond to mobile
+- application must be delivered using responsive design (mobile/tablet/desktop)
 - use a CSS framework for styling 
 - should work in evergreen browsers (don't worry about IE)
 - use any build tools you feel are necessary but all source code must be provided in a readable format
@@ -106,7 +106,7 @@ Your submission will be reviewed according to the following criteria:
   - api documentation
 - testing: provide a set of working tests (or comment how would you implement the following tests):
   - unit testing
-  - 2e2 testing
+  - e2e testing
   - api testing
   
 ## Extra credit
