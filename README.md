@@ -23,14 +23,21 @@ Construct a PHP Web Service which provides the following endpoints:
   - token value can be any value for a successful response  
   - saves library data (data can be saved into a file, DB, cache, cloud service etc, etc)
      
+### Validation rules:
+- 'id' is a positive number
+- 'code' is a 3 character, 3 number combination ARC101
+- 'name' is a string
+- 'abbr' is a string
+- 'url' is a valid URL
+
 ### Sample JSON structure:
 ```
 {
-  "id":   10123, //number
-  "code": "ARC100", //[3 characters 3 numbers]
-  "name": "Architecture / Music Library", //string
-  "abbr": "Arch Music", //string
-  "url": "http://www.library.uq.edu.au/locations/architecture-music-library" //URL string
+  "id":   10123, 
+  "code": "ARC100", 
+  "name": "Architecture / Music Library", 
+  "abbr": "Arch Music", 
+  "url": "http://www.library.uq.edu.au/locations/architecture-music-library" 
 }
 ```
 
@@ -56,7 +63,7 @@ Construct a PHP Web Service which provides the following endpoints:
       "root": 9
     }
   }
-  }
+}
 ```
 
 ### Sample output:
