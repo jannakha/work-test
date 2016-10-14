@@ -1,9 +1,10 @@
 # Welcome to UQLibrary Work Test!
 
-These simple tasks should demonstrate your basic understanding and skills in PHP and javascript.
-
+These simple tasks should demonstrate your basic understanding and skills in PHP and JavaScript.
+- there's no time limit on the test
 - read all instructions first
-- implement each test (fontend and backend) in its own repo on github
+- implement each test (fontend and backend) in its own public repo on github/bitbucket/etc
+- commit often to view your work progress
 - send us links to your repo when you're done
 
 ## Backend test: PHP Web Service
@@ -93,7 +94,7 @@ Construct a javascript application (using AngularJS/PolymerJS/etc) allowing user
 ### Technical requirements
 
 - application must be delivered using responsive design (mobile/tablet/desktop)
-- use a CSS framework for styling 
+- use a CSS framework for styling (default Bootstrap look and feel is fine)
 - should work in evergreen browsers (don't worry about IE)
 - use any build tools you feel are necessary but all source code must be provided in a readable format
 - an http server may be used if required
