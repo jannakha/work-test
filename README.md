@@ -56,7 +56,7 @@ Construct a PHP Web Service which provides the following endpoints:
     },
     "right": {
       "root": 6
-    },
+    }
   },
   "right": {
     "root": 5,
