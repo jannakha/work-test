@@ -80,7 +80,7 @@ Construct a PHP Web Service which provides the following endpoints:
 ## Frontend test: Javascript app
 
 UQ Library provides an open API allowing users to get library data (eg library opening hours, computer availability, etc) for example:
- - http://app.library.uq.edu.au/api/library_hours - [api doc](https://github.com/uqlibrary/work-test/blob/master/api/library_hours.md)
+ - https://app.library.uq.edu.au/api/v2/library_hours - [api doc](https://github.com/uqlibrary/work-test/blob/master/api/library_hours.md)
  - http://app.library.uq.edu.au/api/computer_availability - [api doc](https://github.com/uqlibrary/work-test/blob/master/api/computers_availability.md)
  
 Construct a javascript application (using AngularJS/PolymerJS/etc) allowing users to explore these objects:
