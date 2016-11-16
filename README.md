@@ -43,12 +43,12 @@ Construct a PHP Web Service which provides the following endpoints:
 ```
 
 - /api/findSmallestLeaf GET takes a parameter 'tree' JSON representation of an [unsorted binary tree](https://en.wikipedia.org/wiki/Binary_tree)
- and returns a minimum value of an unsorted binary tree leaf
+ and returns a minimum value of an unsorted binary tree leaf. Leaf is a tree element which doesn't have any children.
 
 ### Sample input:
 ```
 {
-  "root": 2,
+  "root": 1,
   "left": {
     "root": 7,
     "left": {
