@@ -117,7 +117,7 @@ Your submission will be reviewed according to the following criteria:
   - e2e testing
   - api testing
   
-## Extra credit
+## Questions to answer
 
 - provide estimation of how long would it take you to implement each mini-app, comment on how long it took you to implement it
 - application deployment (provide URL to your deployed application, eg heroku, github io etc, or provide steps how to run it locally)
