@@ -15,14 +15,14 @@ Construct a PHP Web Service which provides the following endpoints:
   - takes 'id'
   - 'id' is a number
   - invalid id should return not found response
-  - returns a JSON with library details (returned data can be hardcoded, loaded from local file, DB, cache, cloud service, etc)
+  - returns a JSON with library details (returned data can be mocked, hardcoded, loaded from local file, DB, cache, cloud service, etc)
   
 - /api/library POST 
   - takes a parameter 'library' JSON representation of a library object 
   - requires an authentication token X-VALID-USER: ${token} 
   - without auth token request should return unauthorised response
   - token value can be any value for a successful response  
-  - saves library data (data can be saved into a file, DB, cache, cloud service etc, etc)
+  - saves library data (data doesn't have to be saved (just demostrate Model layer), but you can save it into a file, DB, cache, cloud service etc, etc)
      
 ### Validation rules:
 - 'id' is a positive number
@@ -104,7 +104,7 @@ Construct a javascript application (using AngularJS/PolymerJS/etc) allowing user
 Your submission will be reviewed according to the following criteria:
 
 - code quality: 
-  - readablity
+  - readability
   - coding standards
   - comments
   - following best practices/patterns
