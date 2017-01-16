@@ -3,7 +3,7 @@
 These simple tasks should demonstrate your basic understanding and skills in PHP and JavaScript.
 - there's no time limit on the test
 - read all instructions first
-- implement each test (fontend and backend) in its own public repo on github/bitbucket/etc
+- implement each test (frontend and backend) in its own public repo on github/bitbucket/etc
 - commit often to view your work progress
 - send us links to your repo when you're done
 
