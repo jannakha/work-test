@@ -72,7 +72,7 @@ Construct a PHP Web Service which provides the following endpoints:
 
 
 ### Technical requirements
-- use a framework (Laravel, Lumen, Symfony, etc) 
+- use a framework: Laravel 5 (preferred), Lumen, Symfony, etc
 - use any build tools required
 - provide documentation for your services
 
@@ -98,6 +98,7 @@ Construct a javascript application (using AngularJS/PolymerJS/etc) allowing user
 - should work in evergreen browsers (don't worry about IE)
 - use any build tools you feel are necessary but all source code must be provided in a readable format
 - an http server may be used if required
+- use a Javascript framework: ReactJs (preferred), AngularJs, etc with MaterialUI/other material libraries
 
 ## Criteria
 
@@ -106,12 +107,12 @@ Your submission will be reviewed according to the following criteria:
 - code quality: 
   - readability
   - coding standards
-  - comments
   - following best practices/patterns
 - documentation:
   - inline comments
   - github readme
   - api documentation
+  - instructions on how to run api/javascript app
 - testing: provide a set of working tests (or comment how would you implement the following tests):
   - unit testing
   - e2e testing
