@@ -83,7 +83,7 @@ UQ Library provides an open API allowing users to get library data (eg library o
  - https://app.library.uq.edu.au/api/v2/library_hours - [api doc](https://github.com/uqlibrary/work-test/blob/master/api/library_hours.md)
  - http://app.library.uq.edu.au/api/computer_availability - [api doc](https://github.com/uqlibrary/work-test/blob/master/api/computers_availability.md)
  
-Construct a javascript application (using AngularJS/PolymerJS/etc) allowing users to explore these objects:
+Construct a javascript application (preferably using ReactJS and Redux) allowing users to explore these objects:
 - user should be able to view a list of libraries 
 - user should be able to filter libraries by name
 - either (or both) of these tasks:
@@ -98,7 +98,7 @@ Construct a javascript application (using AngularJS/PolymerJS/etc) allowing user
 - should work in evergreen browsers (don't worry about IE)
 - use any build tools you feel are necessary but all source code must be provided in a readable format
 - an http server may be used if required
-- use a Javascript framework: ReactJs (preferred), AngularJs, etc with MaterialUI/other material libraries
+- use a Javascript framework: ReactJs + Redux (preferred), with MaterialUI/other material libraries
 
 ## Criteria
 
