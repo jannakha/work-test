@@ -22,7 +22,7 @@ Construct a PHP Web Service which provides the following endpoints:
   - requires an authentication token X-VALID-USER: ${token} 
   - without auth token request should return unauthorised response
   - token value can be any value for a successful response  
-  - saves library data (data doesn't have to be saved (just demostrate Model layer), but you can save it into a file, DB, cache, cloud service etc, etc)
+  - saves library data (data doesn't have to be saved (just demonstrate Model layer), but you can save it into a file, DB, cache, cloud service etc, etc)
      
 ### Validation rules:
 - 'id' is a positive number
