@@ -11,13 +11,13 @@ These simple tasks should demonstrate your basic understanding and skills in PHP
 
 Construct a PHP Web Service which provides the following endpoints:
 
-- /api/library/{id} GET 
+- /v1/library/{id} GET 
   - takes 'id'
   - 'id' is a number
   - invalid id should return not found response
   - returns a JSON with library details (returned data can be mocked, hardcoded, loaded from local file, DB, cache, cloud service, etc)
   
-- /api/library POST 
+- /v1/library POST 
   - takes a parameter 'library' JSON representation of a library object 
   - requires an authentication token X-VALID-USER: ${token} 
   - without auth token request should return unauthorised response
@@ -42,7 +42,7 @@ Construct a PHP Web Service which provides the following endpoints:
 }
 ```
 
-- /api/findSmallestLeaf GET takes a parameter 'tree' JSON representation of an [unsorted binary tree](https://en.wikipedia.org/wiki/Binary_tree)
+- /v1/findSmallestLeaf GET takes a parameter 'tree' JSON representation of an [unsorted binary tree](https://en.wikipedia.org/wiki/Binary_tree)
  and returns a minimum value of an unsorted binary tree leaf. Leaf is a tree element which doesn't have any children.
 
 ### Sample input:
@@ -80,8 +80,8 @@ Construct a PHP Web Service which provides the following endpoints:
 ## Frontend test: Javascript app
 
 UQ Library provides an open API allowing users to get library data (eg library opening hours, computer availability, etc) for example:
- - https://app.library.uq.edu.au/api/v2/library_hours - [api doc](https://github.com/uqlibrary/work-test/blob/master/api/library_hours.md)
- - http://app.library.uq.edu.au/api/computer_availability - [api doc](https://github.com/uqlibrary/work-test/blob/master/api/computers_availability.md)
+ - https://api.library.uq.edu.au/v1/library_hours - [api doc](https://github.com/uqlibrary/work-test/blob/master/api/library_hours.md)
+ - https://api.library.uq.edu.au/v1/computer_availability - [api doc](https://github.com/uqlibrary/work-test/blob/master/api/computers_availability.md)
  
 Construct a javascript application (preferably using ReactJS and Redux) allowing users to explore these objects:
 - user should be able to view a list of libraries 
@@ -94,7 +94,7 @@ Construct a javascript application (preferably using ReactJS and Redux) allowing
 ### Technical requirements
 
 - application must be delivered using responsive design (mobile/tablet/desktop)
-- use a CSS framework for styling (default Bootstrap look and feel is fine)
+- use a CSS framework for styling eg Material UI (default Bootstrap look and feel is fine too)
 - should work in evergreen browsers (don't worry about IE)
 - use any build tools you feel are necessary but all source code must be provided in a readable format
 - an http server may be used if required
