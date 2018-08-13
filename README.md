@@ -38,7 +38,7 @@ Construct a PHP Web Service which provides the following endpoints:
   "code": "ARC100", 
   "name": "Architecture / Music Library", 
   "abbr": "Arch Music", 
-  "url": "http://www.library.uq.edu.au/locations/architecture-music-library" 
+  "url": "https://web.library.uq.edu.au/locations-hours/architecture-music-library" 
 }
 ```
 
@@ -125,8 +125,7 @@ Your submission will be reviewed according to the following criteria:
 - comment on which tools you'd use to ensure optimised development environment
 - comment on how you'd optimise your applications on server
 - comment how you'd scale your applications
+- comment on WCAG 2.0 AA compliance considerations
+- comment on SEO considerations
 - comment on any issues you have come across
-- which AWS services would you use for deployment of your applications or how would you deploy these applications on premise 
- 
-
-
+- which AWS services would you use for deployment of your applications or how would you deploy these applications on premise
